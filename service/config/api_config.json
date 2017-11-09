@@ -2,28 +2,32 @@
     "base_url": "https://raw.githubusercontent.com/iblancasa/ghrankings/master/",
     "json_list": [
         {
+            "name": "spain",
+            "path": "spain-region.json"
+        },
+        {
             "name": "andalucia",
-            "path": "andalucia/andalucia"
+            "path": "andalucia/andalucia.json"
         },
         {
             "name": "almeria",
-            "path": "andalucia/almeria"
+            "path": "andalucia/almeria.json"
         },
         {
             "name": "cadiz",
-            "path": "andalucia/cadiz"
+            "path": "andalucia/cadiz.json"
         },
         {
             "name": "cordoba",
-            "path": "andalucia/cordoba"
+            "path": "andalucia/cordoba.json"
         },
         {
             "name": "granada",
-            "path": "andalucia/granada"
+            "path": "andalucia/granada.json"
         },
         {
             "name": "huelva",
-            "path": "andalucia/huelva"
+            "path": "andalucia/huelva.json"
         },
         {
             "name": "jaen",
