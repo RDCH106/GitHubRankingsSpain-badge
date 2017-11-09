@@ -1,0 +1,9 @@
+{
+    "base_url": "https://raw.githubusercontent.com/iblancasa/ghrankings/master/",
+    "json_list": [
+        {
+            "name": "euskadi",
+            "path": "euskadi/euskadi.json"
+        }
+    ]
+}

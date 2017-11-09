@@ -14,14 +14,15 @@ ranking = None
 
 class Ranking:
     def __init__(self):
-        self.__config = self.load_config()
-        self.ranking_list = []
+        self.__config = self.__load_config()
+        self.ranking_list = self.__load_ranking()
+
 
 
     def add_ranking(self, ranking):
         self.ranking_list.append(ranking)
 
-    def load_config(self):
+    def __load_config(self):
         try:
             with open('config/api_config.json') as config_file:
                 config = json.load(config_file)
@@ -30,11 +31,16 @@ class Ranking:
             traceback.print_exc()
             raise
 
-    def load_ranking(self):
+    def __load_ranking(self):
         try:
-            response = urllib.urlopen(self.__config["base_url"] + 'euskadi/euskadi.json')
-            data = json.loads(response.read().decode())
-            print(data)
+            ranking_list = []
+            for ranking in self.__config["json_list"]:
+                response = urllib.urlopen(self.__config["base_url"] + ranking["path"])
+                data = json.loads(response.read().decode())
+                #print(data)
+                ranking_list.append({"name": ranking["name"], "ranking": data})
+            print(ranking_list)
+            return ranking_list
         except:
             traceback.print_exc()
             raise
