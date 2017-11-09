@@ -9,8 +9,8 @@ else:                                   # Python 2 compatibility
     import urllib
 import json
 
-base_url = "https://raw.githubusercontent.com/iblancasa/ghrankings/master/"
 ranking = None
+
 
 class Ranking:
     def __init__(self):
