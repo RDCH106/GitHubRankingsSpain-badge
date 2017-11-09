@@ -25,6 +25,7 @@ class Ranking:
         try:
             with open('config/api_config.json') as config_file:
                 config = json.load(config_file)
+                return config
         except:
             traceback.print_exc()
             raise
