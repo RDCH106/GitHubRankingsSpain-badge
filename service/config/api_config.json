@@ -2,8 +2,40 @@
     "base_url": "https://raw.githubusercontent.com/iblancasa/ghrankings/master/",
     "json_list": [
         {
-            "name": "euskadi",
-            "path": "euskadi/euskadi.json"
+            "name": "andalucia",
+            "path": "andalucia/andalucia"
+        },
+        {
+            "name": "almeria",
+            "path": "andalucia/almeria"
+        },
+        {
+            "name": "cadiz",
+            "path": "andalucia/cadiz"
+        },
+        {
+            "name": "cordoba",
+            "path": "andalucia/cordoba"
+        },
+        {
+            "name": "granada",
+            "path": "andalucia/granada"
+        },
+        {
+            "name": "huelva",
+            "path": "andalucia/huelva"
+        },
+        {
+            "name": "jaen",
+            "path": "andalucia/jaen"
+        },
+        {
+            "name": "malaga",
+            "path": "andalucia/malaga"
+        },
+        {
+            "name": "sevilla",
+            "path": "andalucia/sevilla"
         }
     ]
 }
