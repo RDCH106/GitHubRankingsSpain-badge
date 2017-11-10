@@ -37,7 +37,6 @@ class Ranking:
                 print("Loading... " + self.__config["base_url"] + ranking["path"])
                 response = urllib.urlopen(self.__config["base_url"] + ranking["path"])
                 data = json.loads(response.read().decode())
-                #print(data)
                 ranking_list[ranking["name"]] = {"good_name": ranking["good_name"], "ranking": data}
             print(ranking_list)
             return ranking_list
@@ -67,7 +66,6 @@ class Badge(linkero.Resource):
 ## Actually setup the Api resource routing here
 ##
 def load_ghrankingsAPI():
-    #load_ranking()
     global ranking
     ranking = Ranking()
     linkero.api.add_resource(Badge, '/badge/<region>/<username>')
