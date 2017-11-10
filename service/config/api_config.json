@@ -31,15 +31,15 @@
         },
         {
             "name": "jaen",
-            "path": "andalucia/jaen"
+            "path": "andalucia/jaen.json"
         },
         {
             "name": "malaga",
-            "path": "andalucia/malaga"
+            "path": "andalucia/malaga.json"
         },
         {
             "name": "sevilla",
-            "path": "andalucia/sevilla"
+            "path": "andalucia/sevilla.json"
         }
     ]
 }
