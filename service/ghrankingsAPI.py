@@ -17,11 +17,10 @@ class Ranking:
         self.__config = self.__load_config()
         self.ranking_list = self.__load_ranking()
 
-
-
     def add_ranking(self, ranking):
         self.ranking_list.append(ranking)
 
+    @staticmethod
     def __load_config(self):
         try:
             with open('config/api_config.json') as config_file:
@@ -44,6 +43,7 @@ class Ranking:
         except:
             traceback.print_exc()
             raise
+
 
 class Position(linkero.Resource):
     def get(self, username):
