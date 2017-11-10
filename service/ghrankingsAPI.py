@@ -20,7 +20,6 @@ class Ranking:
     def add_ranking(self, ranking):
         self.ranking_list.append(ranking)
 
-    @staticmethod
     def __load_config(self):
         try:
             with open('config/api_config.json') as config_file:
