@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import linkero.core.linkero as linkero
+from flask import redirect
 import sys
 import traceback
 if sys.version_info > (3, 0):           # Python 3 compatibility
@@ -31,22 +32,36 @@ class Ranking:
 
     def __load_ranking(self):
         try:
-            ranking_list = []
+            ranking_list = {}
             for ranking in self.__config["json_list"]:
+                print("Loading... " + self.__config["base_url"] + ranking["path"])
                 response = urllib.urlopen(self.__config["base_url"] + ranking["path"])
                 data = json.loads(response.read().decode())
                 #print(data)
-                ranking_list.append({"name": ranking["name"], "ranking": data})
+                ranking_list[ranking["name"]] = {"good_name": ranking["good_name"], "ranking": data}
             print(ranking_list)
             return ranking_list
         except:
             traceback.print_exc()
             raise
 
+    def get_user_position(self, region, username):
+        for pos in ranking.ranking_list[region]["ranking"]["users"]:
+            if pos["name"] == username:
+                return pos["position"]
+
 
 class Position(linkero.Resource):
     def get(self, username):
         return 1
+
+
+class Badge(linkero.Resource):
+    def get(self, region, username):
+        return redirect("https://img.shields.io/badge/Ranking " +
+                        ranking.ranking_list[region]["good_name"] + "-" +
+                        str(ranking.get_user_position(region, username)) +
+                        "-blue.svg?maxAge=3600&logo=github")
 
 ##
 ## Actually setup the Api resource routing here
@@ -55,4 +70,5 @@ def load_ghrankingsAPI():
     #load_ranking()
     global ranking
     ranking = Ranking()
+    linkero.api.add_resource(Badge, '/badge/<region>/<username>')
     linkero.api.add_resource(Position, '/position/<username>')
