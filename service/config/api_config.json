@@ -50,6 +50,26 @@
             "name": "sevilla",
             "good_name": "Sevilla",
             "path": "andalucia/sevilla.json"
+        },
+        {
+            "name": "aragon",
+            "good_name": "Aragón",
+            "path": "aragon/aragon.json"
+        },
+        {
+            "name": "huesca",
+            "good_name": "Huesca",
+            "path": "aragon/huesca.json"
+        },
+        {
+            "name": "teruel",
+            "good_name": "Teruel",
+            "path": "aragon/teruel.json"
+        },
+        {
+            "name": "zaragoza",
+            "good_name": "Zaragoza",
+            "path": "aragon/zaragoza.json"
         }
     ]
 }
