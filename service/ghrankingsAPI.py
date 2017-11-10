@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import linkero.core.linkero as linkero
-from flask import redirect
+from flask import redirect, abort
 import sys
 import traceback
 if sys.version_info > (3, 0):           # Python 3 compatibility
@@ -45,9 +45,12 @@ class Ranking:
             raise
 
     def get_user_position(self, region, username):
-        for pos in ranking.ranking_list[region]["ranking"]["users"]:
-            if pos["name"] == username:
-                return pos["position"]
+        try:
+            for pos in ranking.ranking_list[region]["ranking"]["users"]:
+                if pos["name"] == username:
+                    return pos["position"]
+        except KeyError:
+            pass
 
 
 class Position(linkero.Resource):
@@ -57,10 +60,13 @@ class Position(linkero.Resource):
 
 class Badge(linkero.Resource):
     def get(self, region, username):
-        return redirect("https://img.shields.io/badge/Ranking " +
-                        ranking.ranking_list[region]["good_name"] + "-" +
-                        str(ranking.get_user_position(region, username)) +
-                        "-blue.svg?maxAge=3600&logo=github")
+        try:
+            return redirect("https://img.shields.io/badge/Ranking " +
+                            ranking.ranking_list[region]["good_name"] + "-" +
+                            str(ranking.get_user_position(region, username)) +
+                            "-blue.svg?maxAge=3600&logo=github")
+        except KeyError:
+            return abort(400)   # Bad Request
 
 ##
 ## Actually setup the Api resource routing here
