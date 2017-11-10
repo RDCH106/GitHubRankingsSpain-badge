@@ -3,42 +3,52 @@
     "json_list": [
         {
             "name": "spain",
+            "good_name": "Spain",
             "path": "spain-region.json"
         },
         {
             "name": "andalucia",
+            "good_name": "Andalucía",
             "path": "andalucia/andalucia.json"
         },
         {
             "name": "almeria",
+            "good_name": "Almería",
             "path": "andalucia/almeria.json"
         },
         {
             "name": "cadiz",
+            "good_name": "Cádiz",
             "path": "andalucia/cadiz.json"
         },
         {
             "name": "cordoba",
+            "good_name": "Córdoba",
             "path": "andalucia/cordoba.json"
         },
         {
             "name": "granada",
+            "good_name": "Granada",
             "path": "andalucia/granada.json"
         },
         {
             "name": "huelva",
+            "good_name": "Huelva",
             "path": "andalucia/huelva.json"
         },
         {
             "name": "jaen",
+            "good_name": "Jaén",
             "path": "andalucia/jaen.json"
         },
         {
             "name": "malaga",
+            "good_name": "Málaga",
             "path": "andalucia/malaga.json"
         },
         {
             "name": "sevilla",
+            "good_name": "Sevilla",
             "path": "andalucia/sevilla.json"
         }
     ]

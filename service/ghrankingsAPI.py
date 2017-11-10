@@ -22,7 +22,7 @@ class Ranking:
 
     def __load_config(self):
         try:
-            with open('config/api_config.json') as config_file:
+            with open(file='config/api_config.json', encoding="utf-8") as config_file:
                 config = json.load(config_file)
                 return config
         except:
