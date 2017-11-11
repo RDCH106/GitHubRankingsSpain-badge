@@ -280,6 +280,11 @@
             "name": "murcia",
             "good_name": "Murcia",
             "path": "murcia.json"
+        },
+        {
+            "name": "navarra",
+            "good_name": "Navarra",
+            "path": "navarra.json"
         }
     ]
 }
