@@ -160,6 +160,31 @@
             "name": "toledo",
             "good_name": "Toledo",
             "path": "mancha/toledo.json"
+        },
+        {
+            "name": "catalonia",
+            "good_name": "Cataluña",
+            "path": "catalonia/catalonia.json"
+        },
+        {
+            "name": "barcelona",
+            "good_name": "Barcelona",
+            "path": "catalonia/barcelona.json"
+        },
+        {
+            "name": "girona",
+            "good_name": "Gerona",
+            "path": "catalonia/girona.json"
+        },
+        {
+            "name": "lleida",
+            "good_name": "Lérida",
+            "path": "catalonia/lleida.json"
+        },
+        {
+            "name": "tarragona",
+            "good_name": "Tarragona",
+            "path": "catalonia/tarragona.json"
         }
     ]
 }
