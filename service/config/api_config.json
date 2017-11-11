@@ -260,6 +260,11 @@
             "name": "canarias",
             "good_name": "Islas Canarias",
             "path": "canarias.json"
+        },
+        {
+            "name": "rioja",
+            "good_name": "La Rioja",
+            "path": "rioja.json"
         }
     ]
 }
