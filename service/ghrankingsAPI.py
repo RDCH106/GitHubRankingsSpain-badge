@@ -8,6 +8,7 @@ if sys.version_info > (3, 0):           # Python 3 compatibility
     import urllib.request as urllib
 else:                                   # Python 2 compatibility
     import urllib
+    import codecs
 import json
 
 ranking = None
@@ -23,9 +24,14 @@ class Ranking:
 
     def __load_config(self):
         try:
-            with open(file='config/api_config.json', encoding="utf-8") as config_file:
-                config = json.load(config_file)
-                return config
+            if sys.version_info > (3, 0):  # Python 3 compatibility
+                with open(file='config/api_config.json', encoding="utf-8") as config_file:
+                    config = json.load(config_file)
+                    return config
+            else:  # Python 2 compatibility
+                with codecs.open(filename='config/api_config.json', encoding="utf-8") as config_file:
+                    config = json.load(config_file)
+                    return config
         except:
             traceback.print_exc()
             raise
