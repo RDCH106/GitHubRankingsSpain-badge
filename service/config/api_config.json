@@ -185,6 +185,11 @@
             "name": "tarragona",
             "good_name": "Tarragona",
             "path": "catalonia/tarragona.json"
+        },
+        {
+            "name": "ceuta",
+            "good_name": "Ceuta",
+            "path": "ceuta.json"
         }
     ]
 }
