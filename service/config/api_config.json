@@ -265,6 +265,12 @@
             "name": "rioja",
             "good_name": "La Rioja",
             "path": "rioja.json"
+        },
+        {
+            "name": "madrid",
+            "good_name": "Madrid",
+            "good_name": "Madrid",
+            "path": "madrid.json"
         }
     ]
 }
