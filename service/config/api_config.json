@@ -225,6 +225,31 @@
             "name": "caceres",
             "good_name": "Cáceres",
             "path": "extremadura/caceres.json"
+        },
+        {
+            "name": "galicia",
+            "good_name": "Galicia",
+            "path": "galicia/galicia.json"
+        },
+        {
+            "name": "coruna",
+            "good_name": "La Coruña",
+            "path": "galicia/coruna.json"
+        },
+        {
+            "name": "lugo",
+            "good_name": "Lugo",
+            "path": "galicia/lugo.json"
+        },
+        {
+            "name": "orense",
+            "good_name": "Orense",
+            "path": "galicia/orense.json"
+        },
+        {
+            "name": "pontevedra",
+            "good_name": "Pontevedra",
+            "path": "galicia/pontevedra.json"
         }
     ]
 }
