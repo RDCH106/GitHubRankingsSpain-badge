@@ -255,6 +255,11 @@
             "name": "baleares",
             "good_name": "Islas Baleares",
             "path": "baleares.json"
+        },
+        {
+            "name": "canarias",
+            "good_name": "Islas Canarias",
+            "path": "canarias.json"
         }
     ]
 }
