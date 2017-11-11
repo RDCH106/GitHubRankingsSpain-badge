@@ -130,6 +130,36 @@
             "name": "zamora",
             "good_name": "Zamora",
             "path": "castillayleon/zamora.json"
+        },
+        {
+            "name": "mancha",
+            "good_name": "Castilla--La Mancha",
+            "path": "mancha/mancha.json"
+        },
+        {
+            "name": "albacete",
+            "good_name": "Albacete",
+            "path": "mancha/albacete.json"
+        },
+        {
+            "name": "ciudadreal",
+            "good_name": "Ciudad Real",
+            "path": "mancha/ciudadreal.json"
+        },
+        {
+            "name": "cuenca",
+            "good_name": "Cuenca",
+            "path": "mancha/cuenca.json"
+        },
+        {
+            "name": "guadalajara",
+            "good_name": "Guadalajara",
+            "path": "mancha/guadalajara.json"
+        },
+        {
+            "name": "toledo",
+            "good_name": "Toledo",
+            "path": "mancha/toledo.json"
         }
     ]
 }
