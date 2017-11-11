@@ -210,6 +210,21 @@
             "name": "valencia",
             "good_name": "Valencia",
             "path": "cvalenciana/valencia.json"
+        },
+        {
+            "name": "extremadura",
+            "good_name": "Extremadura",
+            "path": "extremadura/extremadura.json"
+        },
+        {
+            "name": "badajoz",
+            "good_name": "Badajoz",
+            "path": "extremadura/badajoz.json"
+        },
+        {
+            "name": "caceres",
+            "good_name": "Cáceres",
+            "path": "extremadura/caceres.json"
         }
     ]
 }
