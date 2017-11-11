@@ -269,8 +269,12 @@
         {
             "name": "madrid",
             "good_name": "Madrid",
-            "good_name": "Madrid",
             "path": "madrid.json"
+        },
+        {
+            "name": "melilla",
+            "good_name": "Melilla",
+            "path": "melilla.json"
         }
     ]
 }
