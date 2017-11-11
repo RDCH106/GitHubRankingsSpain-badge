@@ -190,6 +190,26 @@
             "name": "ceuta",
             "good_name": "Ceuta",
             "path": "ceuta.json"
+        },
+        {
+            "name": "cvalenciana",
+            "good_name": "Comunidad Valenciana",
+            "path": "cvalenciana/cvalenciana.json"
+        },
+        {
+            "name": "alicante",
+            "good_name": "Alicante",
+            "path": "cvalenciana/alicante.json"
+        },
+        {
+            "name": "castellon",
+            "good_name": "Castellón",
+            "path": "cvalenciana/castellon.json"
+        },
+        {
+            "name": "valencia",
+            "good_name": "Valencia",
+            "path": "cvalenciana/valencia.json"
         }
     ]
 }
