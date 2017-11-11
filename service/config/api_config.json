@@ -75,6 +75,11 @@
             "name": "asturias",
             "good_name": "Asturias",
             "path": "asturias.json"
+        },
+        {
+            "name": "cantabria",
+            "good_name": "Cantabria",
+            "path": "cantabria.json"
         }
     ]
 }
