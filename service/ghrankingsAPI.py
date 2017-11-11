@@ -44,7 +44,7 @@ class Ranking:
                 response = urllib.urlopen(self.__config["base_url"] + ranking["path"])
                 data = json.loads(response.read().decode())
                 ranking_list[ranking["name"]] = {"good_name": ranking["good_name"], "ranking": data}
-            print(ranking_list)
+            #print(ranking_list)
             return ranking_list
         except:
             traceback.print_exc()
