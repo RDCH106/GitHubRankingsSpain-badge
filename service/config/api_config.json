@@ -250,6 +250,11 @@
             "name": "pontevedra",
             "good_name": "Pontevedra",
             "path": "galicia/pontevedra.json"
+        },
+        {
+            "name": "baleares",
+            "good_name": "Islas Baleares",
+            "path": "baleares.json"
         }
     ]
 }
