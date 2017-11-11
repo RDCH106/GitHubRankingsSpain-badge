@@ -285,6 +285,26 @@
             "name": "navarra",
             "good_name": "Navarra",
             "path": "navarra.json"
+        },
+        {
+            "name": "euskadi",
+            "good_name": "País Vasco",
+            "path": "euskadi/euskadi.json"
+        },
+        {
+            "name": "alava",
+            "good_name": "Álava",
+            "path": "euskadi/alava.json"
+        },
+        {
+            "name": "vizcaya",
+            "good_name": "Vizcaya",
+            "path": "euskadi/vizcaya.json"
+        },
+        {
+            "name": "guipuzcoa",
+            "good_name": "Guipuzcoa",
+            "path": "euskadi/guipuzcoa.json"
         }
     ]
 }
