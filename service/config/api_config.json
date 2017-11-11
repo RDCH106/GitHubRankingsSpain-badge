@@ -275,6 +275,11 @@
             "name": "melilla",
             "good_name": "Melilla",
             "path": "melilla.json"
+        },
+        {
+            "name": "murcia",
+            "good_name": "Murcia",
+            "path": "murcia.json"
         }
     ]
 }
