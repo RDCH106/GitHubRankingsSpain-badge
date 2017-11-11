@@ -80,6 +80,56 @@
             "name": "cantabria",
             "good_name": "Cantabria",
             "path": "cantabria.json"
+        },
+        {
+            "name": "castillayleon",
+            "good_name": "Castilla y León",
+            "path": "castillayleon/castillayleon.json"
+        },
+        {
+            "name": "avila",
+            "good_name": "Ávila",
+            "path": "castillayleon/avila.json"
+        },
+        {
+            "name": "burgos",
+            "good_name": "Burgos",
+            "path": "castillayleon/burgos.json"
+        },
+        {
+            "name": "leon",
+            "good_name": "León",
+            "path": "castillayleon/leon.json"
+        },
+        {
+            "name": "palencia",
+            "good_name": "Palencia",
+            "path": "castillayleon/palencia.json"
+        },
+        {
+            "name": "salamanca",
+            "good_name": "Salamanca",
+            "path": "castillayleon/salamanca.json"
+        },
+        {
+            "name": "segovia",
+            "good_name": "Segovia",
+            "path": "castillayleon/segovia.json"
+        },
+        {
+            "name": "soria",
+            "good_name": "Soria",
+            "path": "castillayleon/soria.json"
+        },
+        {
+            "name": "valladolid",
+            "good_name": "Valladolid",
+            "path": "castillayleon/valladolid.json"
+        },
+        {
+            "name": "zamora",
+            "good_name": "Zamora",
+            "path": "castillayleon/zamora.json"
         }
     ]
 }
