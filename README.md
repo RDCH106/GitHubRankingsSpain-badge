@@ -20,7 +20,12 @@ $ pip install -r requirements.txt
 
 #### Servicio de insignias
 
-Formato de petición: `host:port/badge/<region_name>/<github_user>`
+Formato de petición: `<host>:<port>/badge/<region_name>/<github_user>`
+
+- `<host>`: IP o dominio de la máquina que aloja el servicio
+- `<port>`: Puerto en el que se sirve el servicio
+- `<region_name>`: Ver tabla de regiones para conseguir la insignia de la región deseada
+- `<github_user>`: Usuario GitHub del que se quiere obtener la insignia
 
 **Tabla de Regiones** :es:
 
