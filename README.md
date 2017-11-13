@@ -14,3 +14,41 @@ $ git clone https://github.com/RDCH106/GitHubRankingsSpain-badge.git --recursive
 $ cd GitHubRankingsSpain-badge/service
 $ pip install -r requirements.txt
 ```
+
+
+### API
+
+#### Servicio de insignias
+
+Formato de petición: `host:port/badge/<region_name>/<github_user>`
+
+**Tabla de Regiones** :es:
+
+| Región           | region_name      |
+|------------------|------------------|
+| España           | spain            |
+| Andalucía        | andalucia        |
+| Almería          | almeria          |
+| Cádiz            | cadiz            |
+| Córdoba          | cordoba          |
+| Granda           | granada          |
+| Huelva           | huelva           |
+| Jaén             | jaen             |
+| Málaga           | malaga           |
+| Sevilla          | sevilla          |
+| Aragón           | aragon           |
+| Huesca           | huesca           |
+| Teruel           | teruel           |
+| Zaragoza         | zaragoza         |
+| Asturias         | asturias         |
+| Cantabria        | catanbria        |
+| Castilla y León  | castillayleon    |
+| Ávila            | avila            |
+| Burgos           | burgos           |
+| León             | leon             |
+| Palencia         | palencia         |
+| Salamanca        | salamanca        |
+| Segovia          | segovia          |
+| Soria            | soria            |
+| Valladolid       | valladolid       |
+| Zamora           | zamora           |
