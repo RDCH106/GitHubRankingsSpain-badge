@@ -29,31 +29,42 @@ Formato de petición: `<host>:<port>/badge/<region_name>/<github_user>`
 
 **Tabla de Regiones** :es:
 
-| Región           | region_name      |
-|------------------|------------------|
-| España           | spain            |
-| Andalucía        | andalucia        |
-| Almería          | almeria          |
-| Cádiz            | cadiz            |
-| Córdoba          | cordoba          |
-| Granda           | granada          |
-| Huelva           | huelva           |
-| Jaén             | jaen             |
-| Málaga           | malaga           |
-| Sevilla          | sevilla          |
-| Aragón           | aragon           |
-| Huesca           | huesca           |
-| Teruel           | teruel           |
-| Zaragoza         | zaragoza         |
-| Asturias         | asturias         |
-| Cantabria        | catanbria        |
-| Castilla y León  | castillayleon    |
-| Ávila            | avila            |
-| Burgos           | burgos           |
-| León             | leon             |
-| Palencia         | palencia         |
-| Salamanca        | salamanca        |
-| Segovia          | segovia          |
-| Soria            | soria            |
-| Valladolid       | valladolid       |
-| Zamora           | zamora           |
+| Región             | region_name        |
+|--------------------|--------------------|
+| España             | spain              |
+| Andalucía          | andalucia          |
+| Almería            | almeria            |
+| Cádiz              | cadiz              |
+| Córdoba            | cordoba            |
+| Granda             | granada            |
+| Huelva             | huelva             |
+| Jaén               | jaen               |
+| Málaga             | malaga             |
+| Sevilla            | sevilla            |
+| Aragón             | aragon             |
+| Huesca             | huesca             |
+| Teruel             | teruel             |
+| Zaragoza           | zaragoza           |
+| Asturias           | asturias           |
+| Cantabria          | catanbria          |
+| Castilla y León    | castillayleon      |
+| Ávila              | avila              |
+| Burgos             | burgos             |
+| León               | leon               |
+| Palencia           | palencia           |
+| Salamanca          | salamanca          |
+| Segovia            | segovia            |
+| Soria              | soria              |
+| Valladolid         | valladolid         |
+| Zamora             | zamora             |
+| Castilla-La Mancha | mancha             |
+| Albacete           | albacete           |
+| Ciudad Real        | ciudadreal         |
+| Cuenca             | cuenca             |
+| Guadalajara        | guadalajara        |
+| Toledo             | toledo             |
+| Cataluña           | catalonia          |
+| Barcelona          | barcelona          |
+| Gerona             | girona             |
+| Lérida             | lleida             |
+| Tarragona          | tarragona          |
