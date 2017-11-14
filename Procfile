@@ -1,1 +1,1 @@
-web: gunicorn service.ghrankingsAPI_main:app
+web: python ghrankingsAPI_main.py
