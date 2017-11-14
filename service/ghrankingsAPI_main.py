@@ -12,6 +12,7 @@ import ghrankingsAPI
 ghrankingsAPI.load_ghrankingsAPI()
 
 # 4) Run Linkero
-linkero.run()              # Run with Werkzeug (not recommended for production environments)
+if __name__ == "__main__":
+    linkero.run()              # Run with Werkzeug (not recommended for production environments)
 #gevent.run(linkero.app)    # Run with Gevent
 #waitress.run(linkero.app)   # Run with Waitress
