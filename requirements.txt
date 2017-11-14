@@ -1,4 +1,0 @@
-linkero>=0.9.3
-pytz
-aniso8601
-gunicorn

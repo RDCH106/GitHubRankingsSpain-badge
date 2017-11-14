@@ -1,1 +1,0 @@
-web: python service/ghrankingsAPI_main.py
