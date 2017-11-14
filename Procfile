@@ -1,1 +1,1 @@
-web: python ghrankingsAPI_main.py
+web: python service.ghrankingsAPI_main.py
