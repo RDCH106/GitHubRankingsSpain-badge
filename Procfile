@@ -1,1 +1,1 @@
-web: gunicorn service/ghrankingsAPI_main:app
+web: gunicorn service.ghrankingsAPI_main:app
