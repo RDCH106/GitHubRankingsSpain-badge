@@ -1,0 +1,5 @@
+heroku create github-rankings-spain-badge --region eu
+git checkout heroku_branch (Add config and DB)
+git subtree push --prefix service heroku master
+heroku ps:scale web=1
+heroku logs --tail

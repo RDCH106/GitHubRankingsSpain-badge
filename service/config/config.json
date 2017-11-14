@@ -1,0 +1,39 @@
+{
+	"debug" : false,
+	"tokenLife" : 600,
+	"adminSecret" : "$5$rounds=549561$kWqFvPNTcBsl.Kle$ONikf.BJtqKKFTZbUtVmwZn0nDdwrsHhjyqgxRlUNw4",
+	"app" : {
+		"secretKey" : "the quick brown fox jumps over the lazy dog",
+		"databaseUri" : "sqlite:///config/db.sqlite",
+		"commitOnTeardown" : true,
+		"accessLog" : true
+	},
+	"host" : {
+		"ip" : "0.0.0.0",
+		"port" : 5000,
+		"processes" : 1,
+        "threaded": false
+	},
+	"SSL" : {
+       	"activate" : false,
+       	"certificate" : "ssl/cert_file.crt",
+       	"key" : "ssl/key_file.key"
+    },
+    "CORS" : {
+        "enable" : true,
+        "origins" : "*"
+    },
+	"gevent" : {
+		"spawn" : 10000,
+		"accessLog" : true
+	},
+	"waitress" : {
+        "threads" : 4,
+        "spawn" : 10000
+    },
+	"API" : {
+		"testAPI" : {
+			
+		}
+	}
+}
