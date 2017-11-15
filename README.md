@@ -81,7 +81,7 @@ Formato de petición: `<host>:<port>/badge/<region_name>/<github_user>`
 | **Galicia**              | galicia                  |
 | La Coruña                | coruna                   |
 | Lugo                     | lugo                     |
-| Oresne                   | orense                   |
+| Orense                   | orense                   |
 | Pontevedra               | pontevedra               |
 | **Islas Baleares**       | baleares                 |
 | **Islas Canarias**       | canarias                 |
