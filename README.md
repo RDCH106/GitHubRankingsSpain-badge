@@ -75,6 +75,25 @@ Formato de petición: `<host>:<port>/badge/<region_name>/<github_user>`
 | Alicante                 | alicante                 |
 | Castellón                | castellon                |
 | Valencia                 | valencia                 |
+| **Extremadura**          | extremadura              |
+| Badajoz                  | badajoz                  |
+| Cáceres                  | caceres                  |
+| **Galicia**              | galicia                  |
+| La Coruña                | coruna                   |
+| Lugo                     | lugo                     |
+| Oresne                   | orense                   |
+| Pontevedra               | pontevedra               |
+| **Islas Baleares**       | baleares                 |
+| **Islas Canarias**       | canarias                 |
+| **La Rioja**             | rioja                    |
+| **Madrid**               | madrid                   |
+| **Melilla**              | melilla                  |
+| **Murcia**               | murcia                   |
+| **Navarra**              | navarra                  |
+| **País Vasco**           | euskadi                  |
+| Álava                    | alava                    |
+| Vizcaya                  | vizcaya                  |
+| Guipuzcoa                | guipuzcoa                |
 
 
 ### Ejemplo
