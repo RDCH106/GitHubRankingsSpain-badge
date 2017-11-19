@@ -34,7 +34,7 @@ Formato de petición: `<host>:<port>/badge/<region_name>/<github_user>`
 | Región                   | region_name              |
 |--------------------------|--------------------------|
 | :es:**España**:es:       | spain                    |
-| **Andalucía**           | andalucia                |
+| **Andalucía**            | andalucia                |
 | Almería                  | almeria                  |
 | Cádiz                    | cadiz                    |
 | Córdoba                  | cordoba                  |
