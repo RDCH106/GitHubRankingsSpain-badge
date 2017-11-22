@@ -98,16 +98,16 @@ Formato de petición: `<host>:<port>/badge/<region_name>/<github_user>`
 
 ### Ejemplo
 
-[![Ranking GitHub España](https://github-rankings-spain-badge.herokuapp.com/badge/euskadi/RDCH106)](https://rawgit.com/RDCH106/ghrankings-viewer/master/ghrankings-viewer.html)
+[![Ranking GitHub España](https://github-rankings-spain-badge.herokuapp.com/badge/euskadi/RDCH106)](https://rawgit.com/RDCH106/GitHubRankingsSpain-viewer/master/ghrankings-viewer.html)
 
 #### Código HTML
 ```html
-<a href="https://rawgit.com/RDCH106/ghrankings-viewer/master/ghrankings-viewer.html" target="_blank">
+<a href="https://rawgit.com/RDCH106/GitHubRankingsSpain-viewer/master/ghrankings-viewer.html" target="_blank">
   <img src="https://github-rankings-spain-badge.herokuapp.com/badge/euskadi/RDCH106" alt="Ranking GitHub España">
 </a>
 ```
 
 #### Código Markdown
 ``` markdown
-[![Ranking GitHub España](https://github-rankings-spain-badge.herokuapp.com/badge/euskadi/RDCH106)](https://rawgit.com/RDCH106/ghrankings-viewer/master/ghrankings-viewer.html)
+[![Ranking GitHub España](https://github-rankings-spain-badge.herokuapp.com/badge/euskadi/RDCH106)](https://rawgit.com/RDCH106/GitHubRankingsSpain-viewer/master/ghrankings-viewer.html)
 ```
