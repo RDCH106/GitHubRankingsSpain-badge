@@ -9,6 +9,12 @@ Actualmente en desarrollo... 🛠️
 📯 Beta desplegada en: https://github-rankings-spain-badge.herokuapp.com
 
 
+## Proyectos Realacionados
+
+- [GitHubRankingsSpain-viewer](https://github.com/RDCH106/GitHubRankingsSpain-viewer)
+- [GitHubRankingsSpain](https://github.com/iblancasa/GitHubRankingsSpain)
+
+
 ### Instalación
 
 Puedes instalarlo desde el código fuente con:
