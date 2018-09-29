@@ -1,6 +1,7 @@
 # GitHubRankingsSpain-badge
 
 [![Python España](https://img.shields.io/badge/Python-Espa%C3%B1a-blue.svg?maxAge=31536000&logo=github&colorA=e60000&colorB=ffcc12&style=flat)](https://www.es.python.org)
+[![Python Heroku](https://img.shields.io/badge/Python-Heroku-purple.svg?maxAge=31536000&logo=github&colorA=888e96&colorB=800080&style=flat)](https://www.es.python.org)
 
 🛡️ Insignias del ranking de desarrolladores españoles en GitHub
 
