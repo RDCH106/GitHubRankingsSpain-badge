@@ -10,12 +10,15 @@ else:                                   # Python 2 compatibility
     import urllib
     import codecs
 import json
+import time
 
 ranking = None
+refresh_time = 3600  # Secs
 
 
 class Ranking:
     def __init__(self):
+        self.__time = time.time()
         self.__config = self.__load_config()
         self.ranking_list = self.__load_ranking()
 
@@ -52,6 +55,9 @@ class Ranking:
             raise
 
     def get_user_position(self, region, username):
+        if (time.time() - self.__time) > refresh_time:
+            self.ranking_list = self.__load_ranking()
+            self.__time = time.time()
         try:
             for pos in ranking.ranking_list[region]["ranking"]["users"]:
                 if pos["name"] == username:
