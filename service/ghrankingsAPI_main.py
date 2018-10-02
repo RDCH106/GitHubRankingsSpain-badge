@@ -13,6 +13,6 @@ ghrankingsAPI.load_ghrankingsAPI()
 
 # 4) Run Linkero
 if __name__ == "__main__":
-    linkero.run()              # Run with Werkzeug (not recommended for production environments)
-#gevent.run(linkero.app)    # Run with Gevent
-#waitress.run(linkero.app)   # Run with Waitress
+    #linkero.run()              # Run with Werkzeug (not recommended for production environments)
+    #gevent.run(linkero.app)    # Run with Gevent
+    waitress.run(linkero.app)   # Run with Waitress
