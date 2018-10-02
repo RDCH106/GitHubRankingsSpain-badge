@@ -22,7 +22,8 @@ class Ranking:
     def add_ranking(self, ranking):
         self.ranking_list.append(ranking)
 
-    def __load_config(self):
+    @staticmethod
+    def __load_config():
         try:
             if sys.version_info > (3, 0):  # Python 3 compatibility
                 with open(file='config/api_config.json', encoding="utf-8") as config_file:
