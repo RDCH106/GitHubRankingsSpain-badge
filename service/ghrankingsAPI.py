@@ -51,7 +51,8 @@ class Ranking:
             traceback.print_exc()
             raise
 
-    def get_user_position(self, region, username):
+    @staticmethod
+    def get_user_position(region, username):
         try:
             for pos in ranking.ranking_list[region]["ranking"]["users"]:
                 if pos["name"] == username:
