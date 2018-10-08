@@ -1,7 +1,7 @@
 {
 	"debug" : false,
 	"tokenLife" : 600,
-	"adminSecret" : "$5$rounds=549561$kWqFvPNTcBsl.Kle$ONikf.BJtqKKFTZbUtVmwZn0nDdwrsHhjyqgxRlUNw4",
+	"adminSecret" : "$5$rounds=535000$J8Ds09Z0IGnmI4IL$pAJUAQc9SHUPxvclo5sC5TW1ukjTtod7bzZigfG9Dn7",
 	"app" : {
 		"secretKey" : "the quick brown fox jumps over the lazy dog",
 		"databaseUri" : "sqlite:///config/db.sqlite",
