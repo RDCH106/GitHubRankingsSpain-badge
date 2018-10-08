@@ -108,7 +108,7 @@ Formato de petición: `<host>:<port>/badge/<region_name>/<github_user>`
 
 ### Ejemplo
 
-[![Ranking GitHub España](https://github-rankings-spain-badge.herokuapp.com/badge/euskadi/RDCH106)](https://rawgit.com/RDCH106/GitHubRankingsSpain-viewer/master/ghrankings-viewer.html)
+[![Ranking GitHub España](https://github-rankings-spain-badge.herokuapp.com/badge/euskadi/RDCH106)](https://rawgit.com/RDCH106/GitHubRankingsSpain-viewer/master/ghrankings-viewer.html?region=euskadi/euskadi)
 
 #### Código HTML
 ```html
