@@ -10,19 +10,23 @@ else:                                   # Python 2 compatibility
     import urllib
     import codecs
 import json
+import time
 
 ranking = None
+refresh_time = 3600  # Secs
 
 
 class Ranking:
     def __init__(self):
+        self.__time = time.time()
         self.__config = self.__load_config()
         self.ranking_list = self.__load_ranking()
 
     def add_ranking(self, ranking):
         self.ranking_list.append(ranking)
 
-    def __load_config(self):
+    @staticmethod
+    def __load_config():
         try:
             if sys.version_info > (3, 0):  # Python 3 compatibility
                 with open(file='config/api_config.json', encoding="utf-8") as config_file:
@@ -51,6 +55,9 @@ class Ranking:
             raise
 
     def get_user_position(self, region, username):
+        if (time.time() - self.__time) > refresh_time:
+            self.ranking_list = self.__load_ranking()
+            self.__time = time.time()
         try:
             for pos in ranking.ranking_list[region]["ranking"]["users"]:
                 if pos["name"] == username:
